@@ -19,7 +19,6 @@ describe('Test Calculator Class', ()=>{
     expect(result).to.equal(2);
   })
   it('Should return divide', ()=>{
-    
     const result = cal.divide(15,3);
     expect(result).to.equal(5);
     expect(()=> cal.divide(10,0)).to.throw("Can't not divide by zero");
