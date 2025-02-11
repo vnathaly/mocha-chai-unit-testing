@@ -8,6 +8,7 @@ describe('Test Calculator Class', ()=>{
   it('Should return sum',()=>{
     const result = cal.add(2,3);
     expect(result).to.equal(5);
+
   })
   it('Should return substraction', ()=>{
     const result = cal.substract(4,1);
